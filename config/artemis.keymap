@@ -45,10 +45,10 @@
         base_layer {
             label = "Artemis Base Layer";
             bindings = <
-                &kp V      &kp W      &kp D      &kp L       &kp Q              &kp Z      &kp U       &kp O      &kp Y      &kp B
-                &hm LGUI N &hm LALT S &hm LCTL T &hm LSHFT H &kp K              &kp COMMA  &hm RSHFT A &hm RCTL E &hm RALT I &hm RGUI C
-                &kp P      &kp F      &kp M      &kp R       &kp X              &kp SEMI   &kp DOT     &kp FSLH   &kp J      &kp G
-                                                 &lt nav SPACE &lt misc TAB     &lt func RET &lt num SQT
+                &kp Q      &kp W      &kp F      &kp P       &kp B              &kp J      &kp L       &kp U      &kp Y      &kp SQT
+                &hm LGUI A &hm LALT R &hm LCTL S &hm LSHFT T &kp G              &kp M      &hm RSHFT N &hm RCTL E &hm RALT I &hm RGUI O
+                &kp Z      &kp X      &kp C      &kp D       &kp V              &kp K      &kp H       &kp COMMA  &kp DOT    &kp FSLH
+                                                 &lt nav SPACE &lt misc TAB     &lt func RET &lt num SEMI
             >;
         };
 
