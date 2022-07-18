@@ -1,7 +1,7 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-config CONFIG_ZMK_USB_LOGGING
+config ZMK_USB_LOGGING
 	default y
 
 if SHIELD_ARTEMIS_LEFT
