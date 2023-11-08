@@ -45,10 +45,10 @@
         base_layer {
             label = "Artemis Base Layer";
             bindings = <
-                &kp Q      &kp W      &kp F      &kp P        &kp B              &kp J      &kp L       &kp U      &kp Y      &kp SQT
+                &kp Q      &kp W      &kp F      &kp P        &kp B              &kp J      &kp L       &kp U      &kp Y      &kp SEMI
                 &hm LGUI A &hm LALT R &hm LCTL S &hm LSHFT T  &kp G              &kp M      &hm LSHFT N &hm LCTL E &hm LALT I &hm LGUI O
                 &kp Z      &kp X      &kp C      &kp D        &kp V              &kp K      &kp H       &kp COMMA  &kp DOT    &kp FSLH
-                                                 &lt misc ESC &lt nav SPACE      &lt num BSPC  &lt func LSHFT
+                                                 &lt misc ESC &lt nav SPACE      &lt num BSPC  &lt func SQT
             >;
         };
 
@@ -66,7 +66,7 @@
             label = "Numbers and Symbols";
             bindings = <
                &kp EXCL    &kp AT      &kp HASH    &kp DLLR     &kp PRCNT      &kp CARET &kp AMPS     &kp ASTRK   &kp LPAR    &kp RPAR
-               &hm LGUI N1 &hm LALT N2 &hm LCTL N3 &hm LSHFT N4 &kp N5         &kp N6    &hm RSHFT N7 &hm RCTL N8 &hm RALT N9 &hm RGUI N0
+               &hm LGUI N1 &hm LALT N2 &hm LCTL N3 &hm LSHFT N4 &kp N5         &kp N6    &hm LSHFT N7 &hm LCTL N8 &hm LALT N9 &hm LGUI N0
                &kp LBKT    &kp RBKT    &kp EQUAL   &kp MINUS    &kp GRAVE      &kp BSLH  &kp SEMI     &trans      &trans      &trans
                                                    &trans       &kp TAB        &trans    &trans
             >;
@@ -87,7 +87,7 @@
 
             bindings = <
                &trans      &trans      &trans      &trans       &trans      &trans &trans       &trans      &trans      &bootloader
-               &hm LGUI F1 &hm LALT F2 &hm LCTL F3 &hm LSHFT F4 &kp F5      &kp F6 &hm RSHFT F7 &hm RCTL F8 &hm RALT F9 &hm RGUI F10
+               &hm LGUI F1 &hm LALT F2 &hm LCTL F3 &hm LSHFT F4 &kp F5      &kp F6 &hm LSHFT F7 &hm LCTL F8 &hm LALT F9 &hm LGUI F10
                &trans      &trans      &trans      &kp F11      &trans      &trans &kp F12      &trans      &trans      &trans
                                                    &trans       &trans      &trans &trans
             >;
