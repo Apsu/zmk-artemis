@@ -75,7 +75,7 @@
         misc_layer {
             label = "Miscellaneous";
             bindings = <
-                &bootloader &reset &trans &trans &trans        &out OUT_TOG      &out OUT_USB     &out OUT_BLE      &trans       &trans
+                &bootloader &trans &trans &trans &trans        &out OUT_TOG      &out OUT_USB     &out OUT_BLE      &trans       &trans
                 &trans      &trans &trans &trans &trans        &bt BT_CLR        &bt BT_SEL 1     &bt BT_SEL 2      &bt BT_SEL 3 &bt BT_SEL 4
                 &trans      &trans &trans &trans &trans        &ext_power EP_TOG &ext_power EP_ON &ext_power EP_OFF &trans       &trans
                                           &trans &trans        &trans            &trans
@@ -86,7 +86,7 @@
             label = "Function Keys";
 
             bindings = <
-               &trans      &trans      &trans      &trans       &trans      &trans &trans       &trans      &reset      &bootloader
+               &trans      &trans      &trans      &trans       &trans      &trans &trans       &trans      &trans      &bootloader
                &hm LGUI F1 &hm LALT F2 &hm LCTL F3 &hm LSHFT F4 &kp F5      &kp F6 &hm RSHFT F7 &hm RCTL F8 &hm RALT F9 &hm RGUI F10
                &trans      &trans      &trans      &kp F11      &trans      &trans &kp F12      &trans      &trans      &trans
                                                    &trans       &trans      &trans &trans
