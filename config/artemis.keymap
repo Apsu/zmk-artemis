@@ -47,7 +47,7 @@
             bindings = <
                 &kp X      &kp C      &kp G      &kp D        &kp B              &kp Q      &kp L       &kp U      &kp Y      &kp SQT
                 &hm LGUI R &hm LALT S &hm LCTL T &hm LSHFT H  &kp K              &kp J      &hm LSHFT N &hm LCTL A &hm LALT I &hm LGUI O
-                &kp SEMI   &kp W      &kp F      &kp P        &kp V              &kp Z      &kp M       &kp COMMA  &kp DOT    &kp FSLH
+                &kp SEMI   &kp F      &kp M      &kp P        &kp V              &kp Z      &kp W       &kp COMMA  &kp DOT    &kp FSLH
                                                  &lt misc ESC &lt nav SPACE      &lt num E  &lt func BSPC
             >;
         };
