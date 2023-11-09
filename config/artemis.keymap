@@ -46,7 +46,7 @@
             label = "Artemis Base Layer";
             bindings = <
                 &kp Q      &kp W      &kp F      &kp P        &kp B              &kp J      &kp L       &kp U      &kp Y      &kp SQT
-                &hm LGUI A &hm LALT R &hm LCTL S &hm LSHFT T  &kp G              &kp M      &hm LSHFT N &hm LCTL H &hm LALT I &hm LGUI O
+                &hm LGUI A &hm LALT R &hm LCTL S &hm LSHFT T  &kp G              &kp M      &hm LSHFT N &hm LCTL E &hm LALT I &hm LGUI O
                 &kp Z      &kp X      &kp C      &kp D        &kp V              &kp K      &kp H       &kp COMMA   &kp DOT    &kp FSLH
                                                  &lt misc ESC &lt nav SPACE      &lt num BSPC &lt func SEMI
             >;
