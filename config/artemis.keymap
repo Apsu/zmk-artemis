@@ -61,7 +61,7 @@
             bindings = <
                &kp LA(UP)     &kp LA(DOWN)     &kp LG(LS(LBKT)) &kp LG(LS(RBKT)) &kp LSLCK      &kp INS    &kp HOME         &kp UP     &kp END      &kp PG_UP
                &sk LGUI       &sk LALT         &sk LCTL         &sk LSHFT        &caps_word     &kp DEL    &kp LEFT         &kp DOWN   &kp RIGHT    &kp PG_DN
-               &kp LA(LS(UP)) &kp LA(LS(DOWN)) &kp LS(PG_UP)    &kp LS(PG_DN)    &kp LNLCK      &kp C_PREV &kp C_PLAY_PAUSE &kp C_NEXT &kp C_VOL_DN &kp C_VOL_UP
+               &kp LA(LS(UP)) &kp LA(LS(DOWN)) &kt LA(LS(TAB))  &kt LA(TAB)    &kp LNLCK      &kp C_PREV &kp C_PLAY_PAUSE &kp C_NEXT &kp C_VOL_DN &kp C_VOL_UP
                                                                 &sl misc         &trans         &kp BSPC   &kp RET
             >;
         };
